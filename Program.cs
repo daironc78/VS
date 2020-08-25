@@ -20,7 +20,7 @@ namespace WindowsCMD
             Console.WriteLine("El numero menor que no esta en el arrego es: " + numero + "\n \n Ejercicio numero tres");
 
             // TERCER EJERCICIO
-            metodos.sores(Tamanio);
+            metodos.Divisores(Tamanio);
             
             Console.ReadKey();
         }
