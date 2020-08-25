@@ -1,0 +1,13 @@
+C:\Users\SQDM\source\repos\WindowsCMD\obj\Debug\netcoreapp3.1\WindowsCMD.csprojAssemblyReference.cache
+C:\Users\SQDM\source\repos\WindowsCMD\obj\Debug\netcoreapp3.1\WindowsCMD.AssemblyInfoInputs.cache
+C:\Users\SQDM\source\repos\WindowsCMD\obj\Debug\netcoreapp3.1\WindowsCMD.AssemblyInfo.cs
+C:\Users\SQDM\source\repos\WindowsCMD\obj\Debug\netcoreapp3.1\WindowsCMD.csproj.CoreCompileInputs.cache
+C:\Users\SQDM\source\repos\WindowsCMD\bin\Debug\netcoreapp3.1\WindowsCMD.exe
+C:\Users\SQDM\source\repos\WindowsCMD\bin\Debug\netcoreapp3.1\WindowsCMD.deps.json
+C:\Users\SQDM\source\repos\WindowsCMD\bin\Debug\netcoreapp3.1\WindowsCMD.runtimeconfig.json
+C:\Users\SQDM\source\repos\WindowsCMD\bin\Debug\netcoreapp3.1\WindowsCMD.runtimeconfig.dev.json
+C:\Users\SQDM\source\repos\WindowsCMD\bin\Debug\netcoreapp3.1\WindowsCMD.dll
+C:\Users\SQDM\source\repos\WindowsCMD\bin\Debug\netcoreapp3.1\WindowsCMD.pdb
+C:\Users\SQDM\source\repos\WindowsCMD\obj\Debug\netcoreapp3.1\WindowsCMD.dll
+C:\Users\SQDM\source\repos\WindowsCMD\obj\Debug\netcoreapp3.1\WindowsCMD.pdb
+C:\Users\SQDM\source\repos\WindowsCMD\obj\Debug\netcoreapp3.1\WindowsCMD.genruntimeconfig.cache
