@@ -1,11 +1,53 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "dotnet-framework-sonarscanner/4.10.0": {
+        "type": "package"
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "dotnet-framework-sonarscanner/4.10.0": {
+      "sha512": "Eq/Hx76TGCqXfrPtGDsJ907YoRHM1MwMx1537kM+yGVWZapNhr6TPClfP+dGbovPlnF3GmJ50fM2BTnJe2Udgw==",
+      "type": "package",
+      "path": "dotnet-framework-sonarscanner/4.10.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnet-framework-sonarscanner.4.10.0.nupkg.sha512",
+        "dotnet-framework-sonarscanner.nuspec",
+        "tools/MSBuild.SonarQube.Runner.exe",
+        "tools/Microsoft.VisualStudio.Setup.Configuration.Interop.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/SonarQube.Analysis.xml",
+        "tools/SonarQube.Scanner.MSBuild.exe",
+        "tools/SonarScanner.MSBuild.Common.dll",
+        "tools/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/SonarScanner.MSBuild.Shim.dll",
+        "tools/SonarScanner.MSBuild.TFS.Classic.dll",
+        "tools/SonarScanner.MSBuild.TFS.dll",
+        "tools/SonarScanner.MSBuild.Tasks.dll",
+        "tools/SonarScanner.MSBuild.exe",
+        "tools/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "tools/System.ValueTuple.dll",
+        "tools/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/Targets/SonarQube.Integration.targets",
+        "tools/sonar-scanner-4.4.0.2170/bin/sonar-scanner",
+        "tools/sonar-scanner-4.4.0.2170/bin/sonar-scanner-debug",
+        "tools/sonar-scanner-4.4.0.2170/bin/sonar-scanner-debug.bat",
+        "tools/sonar-scanner-4.4.0.2170/bin/sonar-scanner.bat",
+        "tools/sonar-scanner-4.4.0.2170/conf/sonar-scanner.properties",
+        "tools/sonar-scanner-4.4.0.2170/lib/sonar-scanner-cli-4.4.0.2170.jar"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "dotnet-framework-sonarscanner >= 4.10.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\SQDM\\.nuget\\packages\\": {},
@@ -15,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SQDM\\source\\repos\\VS\\WindowsCMD.csproj",
+      "projectUniqueName": "C:\\Users\\SQDM\\Source\\Repos\\VS\\WindowsCMD.csproj",
       "projectName": "WindowsCMD",
-      "projectPath": "C:\\Users\\SQDM\\source\\repos\\VS\\WindowsCMD.csproj",
+      "projectPath": "C:\\Users\\SQDM\\Source\\Repos\\VS\\WindowsCMD.csproj",
       "packagesPath": "C:\\Users\\SQDM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SQDM\\source\\repos\\VS\\obj\\",
+      "outputPath": "C:\\Users\\SQDM\\Source\\Repos\\VS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -50,6 +92,12 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "dotnet-framework-sonarscanner": {
+            "target": "Package",
+            "version": "[4.10.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

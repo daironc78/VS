@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CpnIy+wx90HxFqb4gHHkVjS7lZ9cN+MARjEgl10urw2nw4/50qx8EZLoUBojewIgfVwVAOMrRw2IrkRarNsvtg==",
+  "dgSpecHash": "Li66znLG0rruRmjqke3HI6QzzBGPX8Udu6uiCZiyLt46ZGnk3Q9YJDuLflrK4Y8G3e3NUJ7tBw8/eDxZa1iaIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SQDM\\source\\repos\\VS\\WindowsCMD.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\SQDM\\Source\\Repos\\VS\\WindowsCMD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SQDM\\.nuget\\packages\\dotnet-framework-sonarscanner\\4.10.0\\dotnet-framework-sonarscanner.4.10.0.nupkg.sha512"
+  ],
   "logs": []
 }

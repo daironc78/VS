@@ -15,4 +15,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgdotnet-framework-sonarscanner Condition=" '$(Pkgdotnet-framework-sonarscanner)' == '' ">C:\Users\SQDM\.nuget\packages\dotnet-framework-sonarscanner\4.10.0</Pkgdotnet-framework-sonarscanner>
+  </PropertyGroup>
 </Project>

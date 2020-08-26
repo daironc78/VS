@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SQDM\\source\\repos\\VS\\WindowsCMD.csproj": {}
+    "C:\\Users\\SQDM\\Source\\Repos\\VS\\WindowsCMD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SQDM\\source\\repos\\VS\\WindowsCMD.csproj": {
+    "C:\\Users\\SQDM\\Source\\Repos\\VS\\WindowsCMD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SQDM\\source\\repos\\VS\\WindowsCMD.csproj",
+        "projectUniqueName": "C:\\Users\\SQDM\\Source\\Repos\\VS\\WindowsCMD.csproj",
         "projectName": "WindowsCMD",
-        "projectPath": "C:\\Users\\SQDM\\source\\repos\\VS\\WindowsCMD.csproj",
+        "projectPath": "C:\\Users\\SQDM\\Source\\Repos\\VS\\WindowsCMD.csproj",
         "packagesPath": "C:\\Users\\SQDM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SQDM\\source\\repos\\VS\\obj\\",
+        "outputPath": "C:\\Users\\SQDM\\Source\\Repos\\VS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,6 +42,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "dotnet-framework-sonarscanner": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
