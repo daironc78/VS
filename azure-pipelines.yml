@@ -1,5 +1,4 @@
 # .NET Desktop
-- task: SonarQubePostTest@1
 - task: SonarQubePreBuild@1
   inputs:
     projectKey: 'PruebaVS'
